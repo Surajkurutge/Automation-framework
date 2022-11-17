@@ -24,6 +24,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		{
 			Assert.assertTrue(false,"Login failed");
 		}
+		String g;
 	}
 
 }
