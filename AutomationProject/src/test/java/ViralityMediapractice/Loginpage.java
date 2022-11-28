@@ -88,7 +88,7 @@ public class Loginpage   {
 		 //payment type 
 		 driver.findElement(By.id("mui-component-select-paymentMethod")).click();
 		 driver.findElement(By.xpath("//*[@data-value='amount']")).click();
-		 
+		 driver.findElement(By.id(":rd:")).sendKeys("1000");
 		 
 		 
 

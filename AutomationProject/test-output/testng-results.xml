@@ -2,24 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-16T16:54:51Z" name="Default suite" finished-at="2022-11-16T16:54:55Z" duration-ms="4089">
+  <suite started-at="2022-11-27T13:24:58Z" name="Suite" finished-at="2022-11-27T13:25:04Z" duration-ms="5514">
     <groups>
     </groups>
-    <test started-at="2022-11-16T16:54:51Z" name="Default test" finished-at="2022-11-16T16:54:55Z" duration-ms="4089">
+    <test started-at="2022-11-27T13:24:58Z" name="Test" finished-at="2022-11-27T13:25:04Z" duration-ms="5514">
       <class name="com.viralitymedia.testcases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.viralitymedia.testcases.TC_LoginTest_001@4e5ed836]" started-at="2022-11-16T16:54:51Z" name="setup" finished-at="2022-11-16T16:54:53Z" duration-ms="2383" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.viralitymedia.testcases.TC_LoginTest_001@55cb6996]" started-at="2022-11-27T13:24:58Z" name="setup" finished-at="2022-11-27T13:25:01Z" duration-ms="3137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTest()[pri:0, instance:com.viralitymedia.testcases.TC_LoginTest_001@4e5ed836]" started-at="2022-11-16T16:54:53Z" name="LoginTest" finished-at="2022-11-16T16:54:55Z" duration-ms="1670" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.viralitymedia.testcases.TC_LoginTest_001@55cb6996]" started-at="2022-11-27T13:25:01Z" name="LoginTest" finished-at="2022-11-27T13:25:03Z" duration-ms="1809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.viralitymedia.testcases.TC_LoginTest_001@4e5ed836]" started-at="2022-11-16T16:54:55Z" name="tearDown" finished-at="2022-11-16T16:54:55Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.viralitymedia.testcases.TC_LoginTest_001@55cb6996]" started-at="2022-11-27T13:25:03Z" name="tearDown" finished-at="2022-11-27T13:25:04Z" duration-ms="543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.viralitymedia.testcases.TC_LoginTest_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
