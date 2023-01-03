@@ -24,6 +24,15 @@ public class Loginpage {
 	@FindBy(xpath="//*[text()='Log in']")
 	WebElement button;
 	
+	@FindBy (xpath="//*[@href=\"/profile\"]")
+	WebElement profilebutton ;
+	
+	@FindBy (xpath="//*[text()=\"Logout\"]")
+	WebElement ClickOnLogout;
+	
+	@FindBy (xpath="//*[text()=\"Yes\"]")
+	WebElement Yesbutton ;
+	
 	public void setmailid (String id)
 	{
 		mailid.sendKeys(id);
@@ -37,5 +46,18 @@ public class Loginpage {
 	public void clickonlogin()
 	{
 		button.click();
+	}
+	
+	public void clickonprofile()
+	{
+		profilebutton.click();
+	}
+	
+	 
+	
+	public void clickonlogout()
+	{
+		ClickOnLogout.click();
+		Yesbutton.click();
 	}
 }
